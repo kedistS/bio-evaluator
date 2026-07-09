@@ -35,11 +35,11 @@ const portfolio = {
     cvLabel: "Bio AI CV",
     identity:
       "UAE residency visa holder · twofour54 Software Developer license · Addis Ababa, Ethiopia",
-    marquee: ["Biological KGs", "Scientific data quality", "Plant disease AI", "Graph-mining reports", "LLM interpretation"],
+    marquee: ["Biological KGs", "Scientific data quality", "Plant disease AI", "Backend systems", "Product delivery"],
     systemsTitle: "Biology-facing AI systems and scientific review.",
     systemsIntro:
       "Biological knowledge graph pipelines, neural motif mining, LLM-generated explanations, plant health classification, and scientific outputs that can be reviewed and trusted.",
-    timeline: ["BioCypher KG", "GO/STRING/TFLink", "NeuroGraph", "SPMiner", "Coffee AI", "Artifact QA"],
+    timeline: ["BioCypher KG", "GO/STRING/TFLink", "NeuroGraph", "SPMiner", "Coffee AI", "Flutter", "Java"],
     projects: [
       {
         title: "BioCypher Biological Knowledge Graph",
@@ -93,6 +93,20 @@ const portfolio = {
         text:
           "Improved scientific data workflows with schema documentation, source update checks, path validation, CI/CD testing, and changed-file loading for reproducible KG builds.",
         chips: ["Data QA", "Schema checks", "Reproducibility"],
+      },
+      {
+        title: "Campus PC Authentication",
+        period: "Personal Project · 2023",
+        text:
+          "Built a Flutter mobile app for university device registration and QR-code ownership verification, showing practical product delivery beyond research systems.",
+        chips: ["Flutter", "QR codes", "Mobile"],
+      },
+      {
+        title: "Lounge Management System",
+        period: "Personal Project · 2022-2023",
+        text:
+          "Developed a Java Swing desktop application for inventory, customer ordering, and real-time order tracking.",
+        chips: ["Java Swing", "Desktop", "Tracking"],
       },
     ],
     researchTitle: "Biological Research and Analysis",
@@ -151,7 +165,7 @@ const portfolio = {
       },
       {
         title: "Bio Data Systems",
-        note: "Biological graph pipelines, provenance, schema checks, and reproducible outputs.",
+        note: "Biological graph pipelines, provenance, schema checks, APIs, and reproducible outputs.",
         tools: [
           ["BioCypher", null, "BC"],
           ["Neo4j", `${devicon}/neo4j/neo4j-original.svg`],
@@ -163,14 +177,26 @@ const portfolio = {
       },
       {
         title: "AI & ML",
-        note: "LLM interpretation, neural mining, plant disease classification, and model evaluation.",
+        note: "LLM interpretation, neural mining, semantic embeddings, plant disease classification, and model evaluation.",
         tools: [
           ["TensorFlow", `${devicon}/tensorflow/tensorflow-original.svg`],
           ["Keras", `${devicon}/keras/keras-original.svg`],
           ["SPMiner", null, "SP"],
+          ["NeuroMatch", null, "NM"],
           ["MiniLM", null, "ML"],
-          ["Vision", null, "CV"],
-          ["LLMs", null, "AI"],
+          ["R-GCN", null, "RG"],
+        ],
+      },
+      {
+        title: "Engineering Stack",
+        note: "Backend, frontend, mobile, database, and delivery tools used across research and product projects.",
+        tools: [
+          ["React", `${devicon}/react/react-original.svg`],
+          ["Flutter", `${devicon}/flutter/flutter-original.svg`],
+          ["Node.js", `${devicon}/nodejs/nodejs-original.svg`],
+          ["Java", `${devicon}/java/java-original.svg`],
+          ["REST", null, "API"],
+          ["CI/CD", null, "CI"],
         ],
       },
     ],
