@@ -6,7 +6,7 @@ const devicon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons";
 const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
 
 const links = {
-  bioCv: asset("Kedist_Shegute_Biology_Environmental_AI_Evaluator_CV.pdf"),
+  bioCv: asset("Kedist_Shegute_Computational_Biology_AI_CV.pdf"),
 };
 
 const languageTools = [
@@ -26,19 +26,19 @@ const courseLinks = [
 ];
 
 const portfolio = {
-    role: "Biology & Environmental AI Evaluator",
-    eyebrow: "Biology AI Evaluation · Scientific Artifact QA · Computational Biology",
-    title: "Evaluating AI-generated biology artifacts with computational rigor.",
+    role: "Computational Biology & AI Engineer",
+    eyebrow: "Computational Biology · Biological Knowledge Graphs · Scientific AI",
+    title: "Building and reviewing AI systems for biological data.",
     intro:
-      "I review biology and environmental-science AI outputs through the lens of biological knowledge graphs, plant disease classification, graph-mining reports, data provenance, and clear written feedback. My background is computer science, but my professional work has been deeply tied to biological data quality and AI-generated scientific artifacts.",
+      "I work at the intersection of computer science, biological knowledge graphs, graph mining, LLM-supported interpretation, and plant disease classification. My background is engineering, but much of my professional work has focused on making biological data structured, traceable, interpretable, and ready for scientific review.",
     cvUrl: links.bioCv,
-    cvLabel: "Evaluator CV",
+    cvLabel: "Bio AI CV",
     identity:
       "UAE residency visa holder · twofour54 Software Developer license · Addis Ababa, Ethiopia",
-    marquee: ["Biological KG review", "Scientific artifact QA", "Plant disease AI", "Graph-mining reports", "Structured feedback"],
-    systemsTitle: "Biology-facing AI systems and review work.",
+    marquee: ["Biological KGs", "Scientific data quality", "Plant disease AI", "Graph-mining reports", "LLM interpretation"],
+    systemsTitle: "Biology-facing AI systems and scientific review.",
     systemsIntro:
-      "Biological knowledge graph pipelines, neural motif mining, LLM-generated explanations, plant health classification, and reviewable scientific outputs.",
+      "Biological knowledge graph pipelines, neural motif mining, LLM-generated explanations, plant health classification, and scientific outputs that can be reviewed and trusted.",
     timeline: ["BioCypher KG", "GO/STRING/TFLink", "NeuroGraph", "SPMiner", "Coffee AI", "Artifact QA"],
     projects: [
       {
@@ -54,7 +54,7 @@ const portfolio = {
         period: "iCog Labs",
         text:
           "Led a platform that turns raw graph data into mined motifs, LLM-powered interpretations, visual exploration, annotation workflows, query history, and downloadable analysis artifacts.",
-        chips: ["AI artifact review", "LLM interpretation", "Annotation"],
+        chips: ["LLM interpretation", "Graph analysis", "Annotation"],
         repo: "https://github.com/iCog-Labs-Dev/NeuroGraph-AI-Assistant",
       },
       {
@@ -66,11 +66,11 @@ const portfolio = {
         repo: "https://github.com/rejuve-bio/neural-subgraph-matcher-miner",
       },
       {
-        title: "Biological KG Infrastructure Review",
+        title: "Biological KG Infrastructure & Analysis",
         period: "Rejuve.Bio · iCog Labs",
         text:
           "Analyzed graph infrastructure and generated outputs for large biological datasets, surfacing recurring graph motifs, relationship patterns, and data-quality concerns.",
-        chips: ["Neo4j", "Graph QA", "Bio outputs"],
+        chips: ["Neo4j", "Graph analysis", "Bio outputs"],
         repo: "https://github.com/rejuve-bio/biocypher-kg",
       },
       {
@@ -81,11 +81,11 @@ const portfolio = {
         chips: ["Plant disease", "Computer vision", "Evaluation"],
       },
       {
-        title: "Scientific Output Review Workflows",
+        title: "Scientific Output Workflows",
         period: "iCog Labs",
         text:
           "Worked on outputs that needed human-readable reports, visualizations, queryable evidence, structured summaries, and clear handoff between generated results and reviewer interpretation.",
-        chips: ["Reports", "Slides-style summaries", "Feedback"],
+        chips: ["Reports", "Visual summaries", "Review"],
       },
       {
         title: "Backend/Data Quality Support",
@@ -97,7 +97,7 @@ const portfolio = {
     ],
     researchTitle: "Biological Research and Analysis",
     researchIntro:
-      "Research-style graph-mining outputs where factual accuracy, biological plausibility, visual clarity, and structured feedback matter.",
+      "Research-style graph-mining outputs where biological plausibility, factual accuracy, data grounding, and clear presentation all matter.",
     research: [
       {
         number: "20M edges",
@@ -126,8 +126,8 @@ const portfolio = {
     ],
     skillGroups: [
       {
-        title: "Biology Evaluation",
-        note: "Domain-aware review for biological KG outputs, motifs, reports, and AI explanations.",
+        title: "Biology Data",
+        note: "Biological KG sources, network analysis outputs, motifs, reports, and AI explanations.",
         tools: [
           ["GO", null, "GO"],
           ["STRING", null, "ST"],
@@ -138,8 +138,8 @@ const portfolio = {
         ],
       },
       {
-        title: "Artifact QA",
-        note: "Rubric-style checks for factual accuracy, structure, clarity, and presentation quality.",
+        title: "Scientific Review",
+        note: "Checks for factual accuracy, data grounding, structure, clarity, and presentation quality.",
         tools: [
           ["Docs", null, "DC"],
           ["Slides", null, "SL"],
@@ -174,11 +174,11 @@ const portfolio = {
         ],
       },
     ],
-    footerEyebrow: "Available for biology and environmental AI evaluation work",
-    footerTitle: "Ready to review scientific AI outputs with care.",
+    footerEyebrow: "Available for computational biology, bio-AI, and scientific review work",
+    footerTitle: "Ready to make biological AI outputs clearer and more reliable.",
     footerText:
-      "Biological knowledge graphs, plant disease classification, neural graph mining, LLM explanation review, scientific artifact QA, and clear structured feedback.",
-    footerRole: "Biology & Environmental AI Evaluator",
+      "Biological knowledge graphs, plant disease classification, neural graph mining, LLM-supported interpretation, scientific output review, and clear technical feedback.",
+    footerRole: "Computational Biology & AI Engineer",
 };
 
 function currentPortfolio() {
