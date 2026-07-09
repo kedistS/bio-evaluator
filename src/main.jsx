@@ -3,10 +3,8 @@ import { createRoot } from "react-dom/client";
 import "./styles.css";
 
 const devicon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons";
-const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
-
 const links = {
-  bioCv: asset("Kedist_Shegute_Computational_Biology_AI_CV.pdf"),
+  bioCv: "https://kedists.github.io/scientific-ai-systems/Kedist_Shegute_Computational_Biology_AI_CV.pdf",
 };
 
 const languageTools = [
